@@ -1,1 +1,1 @@
-# odin-landing-page
+this repository contains a project that im currently working on# odin-landing-page
