@@ -88,7 +88,7 @@ a{
 button{
     height: 40px;
     width: 100px;
-    border-radius: 17px;
+    border-radius: 14px;
     color: #e5e7eb;
     background-color: #3882f6;
     flex-grow: 0;
@@ -136,5 +136,78 @@ button{
 }
 
 .sec-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 10px;
+}
+
+.author{
+    font-size: 28px;
+    font-weight: 800;
+    align-self: flex-end;
+    margin-right: 220px;
+}
+
+.sec-four{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.popup{
+    width: 1000px;
+    background-color: #3882f6;
+    border-radius: 20px;
+    color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    padding: 50px 150px;
+    /*gap: 150px;*/
+}
+
+.button button{
+    border: 2px solid #e5e7eb;
+}
+
+.button{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.action{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.action{
+    font-size: 18px;
+}
+
+p.bold{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.footer{
+    background-color: #1f2937;
+    padding: 50px;
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 18px;
 }
